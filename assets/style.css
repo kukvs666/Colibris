@@ -1,10 +1,5 @@
 .pad-container {
-    height: 50vh;
-}
-
-html[dir="ltr"] {
-    overflow: hidden !important;
-    background-color: aqua;
+    height: 75vh;
 }
 
 h1 {
@@ -14,3 +9,18 @@ h1 {
 .pads-container {
     margin-top: 50px;
 }
+.navbar-nav,
+mr-auto {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 50vw;
+}
+
+p {
+    max-width: 75vw;
+    margin: auto;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
